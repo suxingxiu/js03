@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        // 数组里的每个项都打印一遍
+        var arr = [10, 11, 12, 13, 14]
+            // i是下标,从0开始,小于数组长度;
+        for (var i = 0; i < arr.length; i++) {
+            console.log(arr[i]);
+        }
+
+
+        // 1.定义数组
+        // 2.挨个访问
+        var arr = ["关羽", "张飞", "马超", "赵云", "黄忠", "刘备", "姜维"];
+        for (var i = 0; i < arr.length; i++) {
+            console.log(arr[i]);
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
